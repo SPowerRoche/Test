@@ -1,0 +1,43 @@
+<object-stream>
+  <list>
+    <models.SmartBand>
+      <modelName>smart watch1</modelName>
+      <price>129.99000549316406</price>
+      <manufacturer>
+        <manufacturerName>Samsung</manufacturerName>
+        <numEmployees>1200</numEmployees>
+      </manufacturer>
+      <id>A123</id>
+      <size>large</size>
+      <material>plastic</material>
+      <heartRateMonitor>true</heartRateMonitor>
+    </models.SmartBand>
+    <models.SmartWatch>
+      <modelName>Smart Watch 12</modelName>
+      <price>459.0</price>
+      <manufacturer reference="../../models.SmartBand/manufacturer"/>
+      <id>W1234</id>
+      <size>large</size>
+      <material>plastic</material>
+      <displayType>LCD</displayType>
+    </models.SmartWatch>
+    <models.Tablet>
+      <modelName>IPad 123</modelName>
+      <price>678.0</price>
+      <manufacturer reference="../../models.SmartBand/manufacturer"/>
+      <id>T1223</id>
+      <processor>Android</processor>
+      <storage>64</storage>
+      <operatingSystem>Android</operatingSystem>
+    </models.Tablet>
+    <models.SmartWatch>
+      <modelName>HiTech Watch</modelName>
+      <price>67.0</price>
+      <manufacturer reference="../../models.SmartBand/manufacturer"/>
+      <id>W3535</id>
+      <size>small</size>
+      <material>plastic</material>
+      <displayType>LCD</displayType>
+    </models.SmartWatch>
+  </list>
+</object-stream>
